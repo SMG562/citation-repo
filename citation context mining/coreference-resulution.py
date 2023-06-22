@@ -1,5 +1,6 @@
 
 
+
 import spacy
 import neuralcoref
 
@@ -28,4 +29,11 @@ def has_coreference(sentence1, sentence2):
 # Test the function
 sentence1 = "More recently, in Kaplan et al. (2016) they define a similar problem of citation block determination"
 sentence2 = "The main difference is that they do not consider the implicit citations that might be non-contiguous to the citing sentence."
+
+
+sentence1 = 'Based on the sentence polarity, Athar and Teufel (2012) categorised scientific text to extract implicit context.'
+sentence2 = 'The primary assumption behind  this was that the authors are more likely to express their actual sentiment towards a citation '
+
+sentence1 = 'Our experiments for RQ1 are designed to systematically test the performance of citation typing classification models on different fixed-size context windows'
+sentence2 = ' For this purpose we utilise a state-of-theart model based on SciBERT (Beltagy et al., 2019),'
 print(has_coreference(sentence1, sentence2))  # Should print True
