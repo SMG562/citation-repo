@@ -1,6 +1,6 @@
 # citation-repo
 
-This repo is for the Project &lt Improve Citation Function Classification via Dynamic Citation Context &gt. 
+This repo is for the Project &lt; Improve Citation Function Classification via Dynamic Citation Context &gt;. 
 
 ## Requirements for core libraries
 
